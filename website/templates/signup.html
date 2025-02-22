@@ -1,6 +1,6 @@
 {% extends "base.html" %} {% block title %}Sign Up{% endblock %} {% block
 content %}
-<div class="container p-3 m-3">
+<div class="container p-3 m-3 w-50">
   <h1>Sign Up</h1>
   <form action="" method="POST">
     <div class="mb-3">
@@ -47,7 +47,9 @@ content %}
         required
       />
     </div>
-    <button type="submit" class="btn btn-primary w-100">Sign Up</button>
+    <button type="submit" class="btn btn-primary d-flex mx-auto">
+      Sign Up
+    </button>
   </form>
   <p class="text-center mt-3">
     Already have an account? <a href="/login">Login here</a>
